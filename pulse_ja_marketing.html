@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ととのう | 振動で整える呼吸アプリ</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+            background: linear-gradient(135deg, #0d0d1a 0%, #1a1a3a 100%);
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .hero {
+            padding: 120px 20px; /* ボタン削除に伴い余白を調整 */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 60vh; /* 画面の高さを確保 */
+        }
+        /* ロゴ削除 */
+        h1 {
+            font-size: 4rem; /* タイトルを少し大きく */
+            margin: 0 0 20px 0;
+            background: -webkit-linear-gradient(#4da6ff, #884dff); /* タイトルにグラデーションを適用 */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 800;
+        }
+        p.subtitle {
+            font-size: 1.3rem;
+            color: #aaccff;
+            max-width: 700px;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+        /* ダウンロードボタン削除 */
+        .features {
+            padding: 80px 20px;
+            background: rgba(255, 255, 255, 0.03);
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 50px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .feature-item h3 {
+            color: #4da6ff;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+        .feature-item p {
+            color: #ccc;
+            line-height: 1.6;
+        }
+        .footer {
+            padding: 50px 20px;
+            font-size: 0.9rem;
+            color: #666;
+            background: rgba(0,0,0,0.2);
+        }
+        .footer a {
+            color: #888;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+        .footer a:hover {
+            color: #4da6ff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>ととのう</h1>
+        <p class="subtitle">
+            眠れない夜に、握って「ととのう」呼吸体験。<br>
+            画面を見ずに、心地よい振動のリズムに身を委ねるだけ。<br>
+            不安な夜の入眠サポートから、仕事前の深い集中まで。
+        </p>
+    </div>
+
+    <div class="features">
+        <div class="features-grid">
+            <div class="feature-item">
+                <h3>触覚フィードバック</h3>
+                <p>目を閉じたまま、手のひらから伝わる振動で呼吸のタイミングを感じ取れます。</p>
+            </div>
+            <div class="feature-item">
+                <h3>3つの呼吸モード</h3>
+                <p>リラックス(4-7-8)、集中(Box)、バランス。目的に合わせて最適なパターンを選べます。</p>
+            </div>
+            <div class="feature-item">
+                <h3>プライバシーファースト</h3>
+                <p>会員登録不要。個人データはあなたの端末内だけで完結します。</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 ととのう App</p>
+        <p>
+            <a href="pulse_ja_support.html">サポート</a> | 
+            <a href="pulse_ja_privacy.html">プライバシーポリシー</a>
+        </p>
+    </div>
+
+</body>
+</html>
